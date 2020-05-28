@@ -5,7 +5,7 @@ public class sreverse {
 
         public String[] reverseString(String[]name)
         {
-            String a[] = new String[name.length];
+              String a[] = new String[name.length];
             int len = name.length - 1;
             for (int i = len; i >= 0; i--) {
                 a[len - i] = name[i]; //i=3 => name[i], a[4] = 'n'
