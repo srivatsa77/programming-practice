@@ -1,6 +1,6 @@
 package sri.io;
 
-public class palindrome {
+public class Palindrome {
     public String reverseString(String name) //2)name recieved
     {
         char[] a = new char[name.length()];
@@ -24,8 +24,8 @@ public class palindrome {
     }
 
     public static void main(String[] args) {
-        String name = "madm";
-        palindrome m = new palindrome();
+        String name = "dad";
+        Palindrome m = new Palindrome();
         String x = m.reverseString(name); //1)send name as string
         System.out.print(" " + x);
     }
