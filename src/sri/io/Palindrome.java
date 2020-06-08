@@ -5,12 +5,12 @@ public class Palindrome {
     public boolean isPalindrome(String name) //2)name recieved
     {
         String reverse = "";
-       // int len = name.length() - 1;
-        for (int i = name.length()-1; i>=0; i--) {
+        int len = name.length() - 1;
+        for (int i =len; i >= 0; i--) {
             reverse = reverse + name.charAt(i);
 
         }
-        return reverse == name;
+        return reverse.equals(name);
     }
 
     public static void main(String[] args) {
